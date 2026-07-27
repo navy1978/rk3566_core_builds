@@ -159,6 +159,13 @@ cd rk3566_core_builds
 ### To build just flycast:
 `./builds.sh flycast`
 
+The 64-bit Flycast script builds
+[`navy1978/flycast2022-lowend`](https://github.com/navy1978/flycast2022-lowend)
+for Cortex-A55 with its bundled RK3566 AICA PGO profile. This reproducible
+profile requires GCC 9.x. The resulting standard libretro-rumble core is also
+installed under the historical `flycast_rumble_libretro.so` filename, without
+the old direct-PWM source patch.
+
 ### To build just flyinghead's flycast core:
 `./builds.sh fly_flycast`
 
